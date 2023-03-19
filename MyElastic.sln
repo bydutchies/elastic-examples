@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyElastic.IntegrationTests", "MyElastic.IntegrationTests\MyElastic.IntegrationTests.csproj", "{F5DA91AE-6482-4090-AD1A-10694FE00010}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5DA91AE-6482-4090-AD1A-10694FE00010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5DA91AE-6482-4090-AD1A-10694FE00010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5DA91AE-6482-4090-AD1A-10694FE00010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5DA91AE-6482-4090-AD1A-10694FE00010}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0F5489E-D362-4D88-8ED4-638415A83D95}
+	EndGlobalSection
+EndGlobal
