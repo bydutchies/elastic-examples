@@ -38,7 +38,8 @@ public class TestElasticClient
                             "penetratietest,pentest")
                       )
                       .Phonetic("my_phonetic", st => st
-                        .Encoder(PhoneticEncoder.Soundex)
+                        .Encoder(PhoneticEncoder.Beidermorse) // More language independent
+                        .LanguageSet(PhoneticLanguage.Any)
                       )
                   )
                   .Analyzers(aa => aa
